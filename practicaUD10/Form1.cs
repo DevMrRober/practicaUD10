@@ -31,6 +31,10 @@ namespace practicaUD10
             string Socios = Nombre + " " + Apellido + " " + Telefono + Environment.NewLine;
 
             tListaSocios.Text = Socios + tListaSocios.Text;
+
+            tNombre.Text = "";
+            tApellidos.Text = "";
+            tTelefono.Text = "";
         }
     }
 }
