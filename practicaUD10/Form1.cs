@@ -21,5 +21,16 @@ namespace practicaUD10
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string Nombre = tNombre.Text;
+            string Apellido = tApellidos.Text;
+            string Telefono = tTelefono.Text;
+
+            string Socios = Nombre + " " + Apellido + " " + Telefono + Environment.NewLine;
+
+            tListaSocios.Text = Socios + tListaSocios.Text;
+        }
     }
 }
